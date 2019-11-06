@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Abel&display=swap);
+
+html,
+body{
+    background-color: rgb(252, 214, 214);
+    text-align: center;
+    min-width: 320px;
+    font-family: 'Abel', sans-serif;
+}
+header {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+
+  }
+  #form-outer{
+      background-color: lightgrey;
+      min-width: 320px;
+      margin: 0 auto;
+      width: 75%;
+      max-width: 900px;
+      padding: 10px;
+      padding-top: 20px;
+  }
+
+.labels{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.rightTab{
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    vertical-align: middle;
+
+} 
+.input-field{
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+  border-radius: 2px;
+
+}
+.userRatings
+ {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+    background-color: lightskyblue;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2em;
+    height: 40px;
+    width: 196px;
+    margin: 10px;
+    border: 0px solid;
+  }
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  .radio, .checkbox {
+    display: block;
+    margin-left: 0;
+    padding-bottom: 10px;
+    position: relative;
+  
+  }
+
+  #preferences{
+      padding: 10px;
+  }
+
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .rightTab {
+      width: 80%;
+      float: left;
+    }
+    .input-field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
